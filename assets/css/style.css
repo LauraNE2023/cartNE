@@ -33,10 +33,25 @@ h3 {
 }
 .botonera a {
   color: rgb(240, 236, 236);
+  text-decoration: none;
 }
 .botonera svg {
   width: 30px;
   fill: rgb(240, 236, 236);
+}
+.botonera .num-cart {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(10, 10, 10);
+  border-radius: 50%;
+  color: rgb(240, 236, 236);
+  display: block;
+  border: solid rgb(10, 10, 10) 1px;
+  transform: translate(11px, -30px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.5em;
 }
 
 .filters button {
@@ -51,6 +66,37 @@ h3 {
 }
 .filters input {
   border-radius: 8px;
+}
+
+.cart-items img {
+  width: 100%;
+  border-radius: 8px;
+}
+.cart-items h4 {
+  font-size: 1em;
+  color: rgb(10, 10, 10);
+}
+.cart-items .price {
+  color: #ff1493;
+  font-weight: 500;
+}
+.cart-items button {
+  border: none;
+  background-color: transparent;
+}
+.cart-items button svg {
+  width: 30px;
+  fill: #ff1493;
+}
+.cart-items .cant {
+  color: grey;
+  margin-top: -15px;
+}
+
+.total-price {
+  font-size: 1.1em;
+  color: black;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=style.css.map */
